@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Bootstrap 4 Navbar with Button</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Poppins Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+
+
+    <!-- slick -->
+    <link rel="stylesheet" href="./slick/css/slick.css" />
+    <link rel="stylesheet" href="./slick/css/slick-theme.css" />
+    <!-- end -->
+
+    <link rel="stylesheet" href="./assest/css/main-style.css ">
+
+</head>
+
+<body>
+
+    <div class="navigation-wrap start-header start-style">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-md navbar-light">
+                        <a class="navbar-brand" href="#" target="_blank">
+                            <img src="../inteligence/assest/images/logo.png" alt="Logo"></a>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto py-4 py-md-0">
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                        aria-haspopup="true" aria-expanded="false">About</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link" href="#">Intelegencia</a>
+                                </li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link" href="#">Solutions</a>
+                                </li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                        aria-haspopup="true" aria-expanded="false">Services</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link" href="#">Digital</a>
+                                </li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link" href="#">Platforms</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- banner section start -->
+    <div id="demo" class="carousel slide" data-ride="carousel"
+        style="z-index: -1; padding: 10px 0; background-color: #070D2D;">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+
+        </ul>
+
+        <!-- The slideshow -->
+        <div>
+            <div class="carousel-inner" style="width: 90%; margin:  0 auto; ">
+                <div class="carousel-item active">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-7 baner-title">
+                            <h1>Proven <span>customer experience </span></h1>
+                            <h1>partner that clients trust globally</h1>
+                            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                            <a href="#" target="_blank">Explore More</a>
+                        </div>
+                        <div class="col-lg-5">
+                            <img src="../inteligence/assest/images/banner-01.png" alt="" style="margin-left:-44%">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-7 baner-title">
+                            <h1>Proven <span>customer experience </span> </h1>
+                            <h1>partner that clients trust globally</h1>
+                            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                            <a href="#" target="_blank">Explore More</a>
+                        </div>
+                        <div class="col-lg-5">                           
+                            <img src="../inteligence/assest/images/banner-01.png" alt="" style="margin-left:-44%">>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+    <!-- end -->
+
+     <!-- Banner bottom section start -->
+     <div class="container banner-bot">
+        <div class="row">
+          <div class="col-lg-2 border-right border-secondary pl-5 pt-2 ">
+            <h6>120+</h6>
+            <p>Global  <br>Customers</p>
+          </div>
+          <div class="col-lg-2 border-right border-secondary pl-5 pt-2 ">
+            <h6>7 offices</h6>
+            <p>in 3 continents</p>
+          </div>
+          <div class="col-lg-2 border-right border-secondary pl-5 pt-2 ">
+            <h6>1200+</h6>
+            <p>Distributed <br>Workforce</p>
+          </div>
+          <div class="col-lg-3 pt-3">
+            <p class="mb-0">Certificates & Awards</p>
+            <h5> ISO 27001:2021 Certified <br>PCI DSS Certified</h5>
+          </div>
+          <div class="col-lg-3">
+            <img src="../inteligence/assest/images/winner.png" alt="">
+            <!-- <h6>Certificates & Awards</h6>
+            <p> ISO 27001:2021 Certified PCI DSS Certified</p> -->
+          </div>
+        </div>
+       </div>
+     <!-- end -->
+
+
+    <!-- What we offere section start -->
+    <div class="fuild-container">
+        <div class="">
+            <div class="row">
+                <div class="col-lg-2"
+                    style="background: url('../inteligence/assest/images/group34.svg')#dfdfdf; background-repeat: no-repeat; padding: 60px; font-size: 50px;">
+                    What We Offer</div>
+                <div class="col-lg-5 p-0" style="background: url('../inteligence/assest/images/shap/shap1.png');">
+                    <div class="inn-data">
+                        <div class="box1">
+                            <div style="position: relative;">
+                                <h4 class="pb-4">Technology & Digital Experience</h4>
+                                <div class="sep"></div>
+                                <ul class="pt-3">
+                                    <li>Digital Transformation </li>
+                                    <li>Data Sciences/Engineering</li>
+                                    <li>Cloud Infrastructure</li>
+                                    <li>eCommerce Platforms</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="exp-btn">
+                            <a href="#" target="_blank">Explore More</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="col-lg-5 p-0" style="background: url('../inteligence/assest/images/shap/shap2.png');">
+                    <div class="inn-data">
+                        <div class="box2">
+                            <div style="position: relative;">
+                                <h4 class="pb-4">Customer Experience/BPO & E-Commerce</h4>
+                                <div class="sep"></div>
+                                <ul class="pt-3">
+                                    <li>Digital Brand Management </li>
+                                    <li>Back Office Function</li>
+                                    <li>Inbound/Outbound Sales Support</li>
+                                    <li> eCommerce Full Service Management</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="exp-btn1">
+                            <a href="#" target="_blank">Explore More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+
+    <!-- Blog section start -->
+    <div class="fuild-container">
+        <div class="container">
+
+            <div class="blog-head ">
+                <div class="blog-head-inner d-flex mr-0">
+                    <div class="blog-heading">Blogs</div>
+                <div style="display: flex  ;
+                align-items: center;
+                background: #2494EA;
+                padding: 10px 20px;
+                position: absolute;
+                right: 0;
+                bottom: 0;">View All
+                </div>
+                </div>
+                
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 p-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">DIGITAL</h5>
+                            <p class="card-text">Lorem ipsum dummy text here set amet srreewess ertyut sed ubnt
+                                concrtites set...</p>
+                        </div>
+                        <img class="card-img-top" src="../inteligence/assest/images/blogs/1.png" alt="DIGITAL">
+
+                    </div>
+                </div>
+                <div class="col-lg-3 p-2">
+                    <div class="card" style="margin-top: 2.5rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">HUMAN RESOURCE</h5>
+                            <p class="card-text">Lorem ipsum dummy text here set amet srreewess ertyut sed ubnt
+                                concrtites set...</p>
+                        </div>
+                        <img class="card-img-top" src="../inteligence/assest/images/blogs/2.png" alt="HUMAN RESOURCE">
+
+                    </div>
+                </div>
+                <div class="col-lg-3 p-2">
+                    <div class="card" style="margin-top: 5rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">SALESFORCE</h5>
+                            <p class="card-text">Lorem ipsum dummy text here set amet srreewess ertyut sed ubnt
+                                concrtites set...</p>
+                        </div>
+                        <img class="card-img-top" src="../inteligence/assest/images/blogs/3.png" alt="Card image cap">
+
+                    </div>
+                </div>
+                <div class="col-lg-3 p-2">
+                    <div class="card" style="margin-top: 7.5rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">DEVOPS</h5>
+                            <p class="card-text">Lorem ipsum dummy text here set amet srreewess ertyut sed ubnt
+                                concrtites set...</p>
+                        </div>
+                        <img class="card-img-top" src="../inteligence/assest/images/blogs/4.png" alt="Card image cap">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+    <!-- partner section start -->
+    <div class="fuild-container partner">
+        <div class="container ">
+            <h2>In Partnership With</h2>
+            <ul class="d-flex ">
+                <li>
+                    <img src="../inteligence/assest/images/partner/microsoft.png" alt="microsoft">
+                </li>
+                <li>
+                    <img src="../inteligence/assest/images/partner/saleforce.png" alt="saleforce">
+                </li>
+                <li>
+                    <img src="../inteligence/assest/images/partner/synchro.png" alt="logo">
+                </li>
+                <li>
+                    <img src="../inteligence/assest/images/partner/amazon.png" alt="amazon">
+                </li>
+                <li>
+                    <img src="../inteligence/assest/images/partner/talkdesk.svg" alt="talkdesk">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- end -->
+
+    <!-- inside section start -->
+    <div class="fuild-container">
+        <div class="row">
+            <div class="col-lg-6 insights"></div>
+            <div class="col-lg-6 bg-dark insight-wrap" style="padding: 115px;">
+                <h6>Insights</h6>
+                <h4>Consectetur adipisicing acilis distinctio fuga deserunt!</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis distinctio fuga deserunt! Iste
+                    ohicabo ratione molestias assumenda nesciunt…</p>
+                <div class="text-right arr-btn pt-3">
+                    <img src="../inteligence/assest/images/arrow.svg" alt="Arrow">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+    <!-- client and Location section start -->
+    <div class="fuild-container">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-lg-5 client-testimonial">
+                    <h3>What Our Clients Say</h3>
+                    <div class="client-inner">
+                        <img src="../inteligence/assest/images/quote.svg" alt="">
+                        <ul class="multiple-items" style="padding: 0; margin: 0; padding-left: 0; margin-left: 0; margin-top: -130px;
+                        padding: 10px 20px;">
+                            <li>
+                                <p> We started working with Intelegencia 5 years ago on a single project . The outcome
+                                    of the initial project (and subsequent ones) were successful so I made the decision
+                                    to
+                                    migrate my entire domestic software development to offshore. The integrity of Perry
+                                    and his team has been impeccable and we are a better company as a result of this
+                                    development partnership.
+                                </p>
+                                <div class="client-info">
+                                    <h5>Chris</h5>
+                                    <p class="m-0">President and CEO, </p>
+                                    <p class="m-0">PrintReach, USA</p>
+                                </div>
+                            </li>
+                            <li>
+                                <p> We started working with Intelegencia 5 years ago on a single project . The outcome
+                                    of the initial project (and subsequent ones) were successful so I made the decision
+                                    to
+                                    migrate my entire domestic software development to offshore. The integrity of Perry
+                                    and his team has been impeccable and we are a better company as a result of this
+                                    development partnership.
+                                </p>
+                                <div class="client-info">
+                                    <h5>Chris</h5>
+                                    <p class="m-0">President and CEO, </p>
+                                    <p class="m-0">PrintReach, USA</p>
+                                </div>
+                            </li>
+
+
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-7 location">
+                    <h3>Our Locations</h3>
+                    <div class="row">
+
+                        <div class="col-lg-6">
+                            <div class="destination-img">
+                                <img class="img-fluid w-100" src="../inteligence/assest/images/location/usa.png"
+                                    alt="USA">
+                                <div class="overlay text-center">
+                                    <h5>USA</h5>
+                                    <p class="txt-hover">40 West Evergreen Ave, Suite 101A, Philadelphia, PA 19118</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="destination-img">
+                                <img class="img-fluid w-100" src="../inteligence/assest/images/location/philippines.png"
+                                    alt="USA">
+                                <div class="overlay text-center">
+                                    <h5>Philippines</h5>
+                                    <p class="txt-hover">40 West Evergreen Ave, Suite 101A, Philadelphia, PA 19118</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="destination-img">
+                                <img class="img-fluid w-100" src="../inteligence/assest/images/location/Ireland.png"
+                                    alt="USA">
+                                <div class="overlay text-center">
+                                    <h5>Ireland</h5>
+                                    <p class="txt-hover">40 West Evergreen Ave, Suite 101A, Philadelphia, PA 19118</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="destination-img">
+                                <img class="img-fluid w-100" src="../inteligence/assest/images/location/india.png"
+                                    alt="USA">
+                                <div class="overlay text-center">
+                                    <h5>India</h5>
+                                    <p class="txt-hover">40 West Evergreen Ave, Suite 101A, Philadelphia, PA 19118</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+    <!-- Footer section start -->
+    <div class="fuild-container footer-wrap mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 text-white">
+                    <h6>Intelegencia</h6>
+                    <p>We partner with our clients to form a cross-functional team and turn their visions into reality.
+                    </p>
+                    <div class="email pb-4">
+                        Email: <a href="mailto:info@intelegencia.com">info@intelegencia.com</a>
+                    </div>
+                    <h6 class="d-inline">Follow Us : </h6>
+                    <span>
+                        <i class='fab fa-facebook-f'></i>
+                        <i class='fab fa-twitter'></i>
+                        <i class='fab fa-instagram'></i>
+                        <i class='fab fa-linkedin-in'></i>
+                    </span>
+
+                </div>
+                <div class="col-lg-8 text-white">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h6>Services</h6>
+                            <ul>
+                                <li>Data Analytics</li>
+                                <li>Blockchain</li>
+                                <li>Applications</li>
+                                <li>Quality Engineering</li>
+                                <li>Automation & AI</li>
+                                <li>Cloud & Infra</li>
+                                <li>Engineering</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <h6>About Intelegencia </h6>
+                            <ul>
+                                <li>Our Leadership Team</li>
+                                <li>News & Events</li>
+                                <li>Our Locations</li>
+                                <li>Blog</li>
+                                <li>Contact Us</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <h6>Support</h6>
+                            <ul>
+                                <li>Terms of Use</li>
+                                <li>Privacy</li>
+                                <li>Cookie Policy</li>
+                                <li>Blog</li>
+                                <li>Contact Us</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fuild-container pt-4 copyright">
+        <div class="container">
+            <h6 class="text-white">Copyrights ©2009 - 2020 Intelegencia</h6>
+            <p>Amazon Service Provider Network, Amazon SPN, and Amazon SPN logo are trademarks of Amazon.com, Inc. or
+                its affiliates</p>
+        </div>
+    </div>
+    <!-- end -->
+
+    <!-- Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <!-- fontawesome -->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <!-- slick -->
+    <script src="slick/js/slick.js"></script>
+    <script type="text/javascript">
+        $(document).on('ready', function () {
+            $('.multiple-items').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                dots: false,
+                arrow: true
+            });
+
+            $('.brands').slick({
+                infinite: true,
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                autoplay: false,
+                dots: true
+            });
+        });
+    </script>
+</body>
+
+</html>
